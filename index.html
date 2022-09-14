@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal PortFolio website</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+
+    <div class="header">
+        <div class="container">
+
+            <nav>
+
+
+                <img src="./image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fa fa-user-times" aria-hidden="true" onclick="closemenu()"></i>
+
+                </ul>
+
+                <i class="fa fa-bars" aria-hidden="true" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>Hi, I'm <span>Shahzad Ali</span> <br> From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./image/IMG_20200212_002854_0-removebg-preview.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="objective">Hi!, my name is Shahzad Ali <br> and I am a front end web developer from
+                        Pakistan. <br> I am also a HTML-5 CSS3 developer and a javaScript developer. <br> I know front
+                        end web development.
+                        i know many web languages like <br> html(hypertext markup language), css(cascading style sheet)
+                        <br> bootstrap,javascript(personal home page)
+                        My first priority to satisfy my clients. <br> i will ensure your website will be good looking,
+                        user friendly and fully responsive. <br> So feel free to contact me.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('slills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+
+
+
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML5</span><br>80%</li>
+                            <li><span>CSS</span><br>60%</li>
+                            <li><span>BootStrap</span><br>80%</li>
+                            <li><span>JavaScript</span><br>30%</li>
+                            <li><span>React</span><br>10%</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Web Design </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="education">
+                        <ul>
+                            <li><span>2022</span><br>Web&Mobile Development course <br>Frontend Developer
+                                for <br>jawan Pakistan</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img
+                        src="./image/screencapture-file-C-Users-kkc-Desktop-E-Commerce-website3-index-html-2022-09-08-03_22_06.png">
+                    <div class="layer">
+                        <h3>Ecommerce Full Website</h3>
+                        <p>The App connects you yo the talented people around the world.
+                            Download it from Play Store.
+                        </p>
+                        <a href="https://github.com/ShahzadAliSoomro/E-Commerce-website3"><i class="fa fa-github"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./image/Ecomere=website.png">
+                    <div class="layer">
+                        <h3>Online Shopping-Website </h3>
+                        <p>The App connects you yo the talented people around the world.
+                            Download it from Play Store.
+                        </p>
+                        <a href="https://github.com/ShahzadAliSoomro/E-Commerce-Website"><i class="fa fa-github"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./image/brandShoes-website.png">
+                    <div class="layer">
+                        <h3>BrandShoes-Website</h3>
+                        <p>The App connects you yo the talented people around the world.
+                            Download it from Play Store.
+                        </p>
+                        <a href="https://github.com/ShahzadAliSoomro/Brand-Shoes-App"><i class="fa fa-github"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact me</h1>
+                            <p><i class="fa fa-paper-plane" aria-hidden="true"></i>shahzadhussain1731043@gmail.com</p>
+                            <p><i class="fa fa-phone-square" aria-hidden="true"></i>03041797211</p>
+                            <div class="social-icons">
+                                <a href="https://github.com/ShahzadAliSoomro"><i class="fa fa-github"
+                                        aria-hidden="true"></i></a>
+                                <a href="https://www.linkedin.com/in/shahzad-ali-51748122b/"><i
+                                        class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+
+                            </div>
+                            <a href="./image/shzadcv.pdf" download class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form action="./thankYou.html" id="contact-form">
+                                <input type="text" id="nme" name="Name" placeholder="Your Name" required>
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                                <textarea name="Message" id="mesg" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" id="myBtn" class="btn btn2"><a href="./thankYou.html"></a>
+                                    Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <script src="./app.js"></script>
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+            </script>
+            <script type="text/javascript">
+                (function () {
+                    emailjs.init("zgCr8q0Th1VA-2v6a");
+                    const form = document.getElementById("contact-form")
+                    form.addEventListener("submit", async (e) => {
+                        e.preventDefault()
+                        document.getElementById("myBtn").disabled = true;
+                        const name = document.getElementById('nme').value
+                        const message = document.getElementById('mesg').value
+                        const email = document.getElementById('email').value
+                        console.log({ name, message, email })
+                        const obj = {
+                            from_name: name,
+                            to_name: "test",
+                            message: message
+                        }
+                        const response = await emailjs.send("service_4soyuqk", "template_mezk1tm", obj, "zgCr8q0Th1VA-2v6a");
+                        console.log({ response })
+                        window.location.href = "/thankYou.html"
+                    })
+
+                })();
+            </script>
+</body>
+
+</html>
